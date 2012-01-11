@@ -1,5 +1,5 @@
-
-<? $this->renderPartial('//qna/newQuestionForm') ?>
+<? $this->renderPartial('//qna/newQuestionForm')
+$this->pageTitle = "whatever";?>
 
 
 
