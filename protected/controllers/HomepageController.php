@@ -6,6 +6,7 @@ class HomepageController extends Controller
    
     public function actionIndex()
     {
+        $this->pageTitle = "phpguide - Home Page";
         
         $page = 0;
         $qnas = array();
